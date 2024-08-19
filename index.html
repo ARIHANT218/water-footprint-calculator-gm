@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Footprint Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Water Footprint Calculator</h1>
+    </header>
+
+    <section id="calculator">
+        <h2>Calculate Water Footprint</h2>
+        <input type="text" id="itemInput" placeholder="Enter item name...">
+        <button onclick="calculateFootprint()">Calculate</button>
+        <p id="result"></p>
+    </section>
+
+    <div id="game-container">
+        <h1>Water Conservation Adventure</h1>
+        <div id="scenario-container">
+            <p id="scenario-text">Welcome to the Water Conservation Adventure!</p>
+        </div>
+        <div id="choices-container">
+            <!-- Choices will be dynamically added here -->
+        </div>
+        <button id="start-game">Start Game</button>
+        <p id="score">Water Footprint Score: <span id="footprint-score">0</span></p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Water Conservation Initiative</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
