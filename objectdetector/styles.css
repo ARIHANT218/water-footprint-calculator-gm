@@ -1,14 +1,19 @@
 body {
     font-family: helvetica, arial, sans-serif;
-    color: #3D3D3D;
+    color: #328dfc;
+    background-color: #2b2b2b;
   }
   
   h1 {
-
-    font-style: italic;
-    color: #FF6F00;
+    
+    text-align: center;
+    color: #0073ff;
   }
   
+  #description{
+    margin: 0 auto;
+   max-width:480px;
+  }
   video {
    
     display: block;
@@ -31,29 +36,39 @@ body {
   
   .camView {
     width: calc(100% - 20px);
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   
-  .highlighter p {
-    font-size: 24px;
-    color: #FF6F00;
-    font-family: fantasy;
-  }
-  
-  .highlighter {
-   text-align: center;
-    
-  }
   .stopdiv{
     text-align: center;
   }
-  #stopbtn{
-    
-    padding: 4px;
+
+  #resultbar{
+    color: #0073ff;
+    padding: 8px;
+    font-family: fantasy;
+    font-size: 24px;
+  }
+  button{
+    margin-top: 12px;
+    padding: 6px 8px;
     font-size: 18px;
-    color: red;
+    border: none;
+    border-radius: 4px;
+    background-color: #206ba5;
+    color: #ffffff;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: #328dfc;
+    color: #ffffff;
+    transition: 250ms;
+  }
+  .flexing{
+    display: flex;
+    gap: 12px;
   }
