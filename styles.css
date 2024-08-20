@@ -46,12 +46,81 @@ button:hover {
     color: #10d10a;
 }
 
+h1 {
+    
+    text-align: center;
+    color: #0073ff;
+  }
+  
+  #description{
+    margin: 0 auto;
+   max-width:480px;
+  }
+  video {
+   
+    display: block;
+  }
+  
+  section {
+    
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+  }
+
+  .removed {
+    display: none;
+  }
+  
+  .invisible {
+    opacity: 0.2;
+  }
+
+  
+  .camView {
+    width: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .stopdiv{
+    text-align: center;
+  }
+
+  #resultbar{
+    color: #0073ff;
+    padding: 8px;
+    font-family: fantasy;
+    font-size: 24px;
+  }
+  button{
+    margin-top: 12px;
+    padding: 6px 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: #206ba5;
+    color: #ffffff;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: #328dfc;
+    color: #ffffff;
+    transition: 250ms;
+  }
+  .flexing{
+    display: flex;
+    gap: 12px;
+  }
 
 #game-container {
     background-color: #ffffff;
     border-radius: 10px;
     height: 30vh;
-    padding: 60px;
+    margin-top: 140px;
+    padding: 120px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -65,7 +134,7 @@ button:hover {
 }
 
 button {
-    background-color: #007bb5;
+    background-color: #00796b;
     color: white;
     border: none;
     border-radius: 5px;
@@ -75,9 +144,7 @@ button {
 }
 
 button:hover {
-    background-color: #1fb3e5;
-    transition: 250ms;
-    color: black;
+    background-color: #004d40;
 }
 
 #score {
@@ -85,18 +152,3 @@ button:hover {
     font-weight: bold;
 }
 
-.objectdetector{
-    margin: 42px 0;
-    background-color: #ffffff;
-    border-radius: 10px;
-    height: 30vh;
-    padding: 60px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-}
-.detectorbtn{
-    margin-top: 32px;
-    font-size: 18px;
-    
-}
