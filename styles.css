@@ -75,7 +75,8 @@ button {
 }
 
 button:hover {
-    background-color: #004d40;
+    background-color: #1fb3e5;
+    transition: 250ms;
 }
 
 #score {
@@ -83,3 +84,18 @@ button:hover {
     font-weight: bold;
 }
 
+.objectdetector{
+    margin: 42px 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 30vh;
+    padding: 60px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.detectorbtn{
+    margin-top: 32px;
+    font-size: 18px;
+    
+}
