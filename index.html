@@ -18,38 +18,6 @@
         <p id="result"></p>
     </section>
 
-    <h1> Get water footprint of common objects using AI water footprint calculator</h1>
-
-   
-    
-    <section id="demos" class="invisible">
-
-      <p id="description">Hold some objects up close to your webcam to get a real-time classification! with their waterfootprint When ready click "enable webcam" below and accept access to the webcam when the browser asks (check the top left of your window)</p>
-      
-      <div id="liveView" class="camView">
-        <button id="webcamButton">Open Camera</button>
-        <video id="webcam" autoplay muted width=520px height="400"></video>
-        <div id="resultbar" class="removed">
-          Result -->
-          <div id="result" ></div>
-        </div>
-      </div>
-    </section>
-    <div class="stopdiv">
-      <a href="../index.html">
-        <button id="stopbtn" class="removed">Stop</button>
-      </a>
-    </div>
-   
-    
-   
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js" type="text/javascript"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
-    
-    
-    <script src="script.js" defer></script> -->
-
     <div id="game-container">
         <h1>Water Conservation Adventure</h1>
         <div id="scenario-container">
@@ -61,31 +29,18 @@
         <button id="start-game">Start Game</button>
         <p id="score">Water Footprint Score: <span id="footprint-score">0</span></p>
     </div>
-    
+    <div class="objectdetector">
+        <h1> Know waterfootprint of an object by just using camera </h1>
+        <h3>with help of AI powered real-time object detection📷</h3>
+        <a href="objectdetector/index.html">
+            <button class="detectorbtn">Check it Out</button>
+        </a>
+    </div>
     <footer>
         <p>&copy; 2024 Water Conservation Initiative</p>
     </footer>
 
-    <script src="script1.js"></script>
+    <script src="script.js"></script>
     <script src="game.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js" type="text/javascript"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
-    
-    
-    <script src="script.js" defer></script>
-    <script>
-        window.embeddedChatbotConfig = {
-        chatbotId: "CF3qmIC9w7dNr-KrW6-b_",
-        domain: "www.chatbase.co"
-        }
-        </script>
-        <script
-        src="https://www.chatbase.co/embed.min.js"
-        chatbotId="CF3qmIC9w7dNr-KrW6-b_"
-        domain="www.chatbase.co"
-        defer>
-        </script>
 </body>
 </html>
