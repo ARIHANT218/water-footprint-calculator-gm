@@ -45,45 +45,72 @@ button:hover {
     text-transform: capitalize;
     color: #10d10a;
 }
-
-
-#game-container {
-    background-color: #ffffff;
-    border-radius: 10px;
-    height: 30vh;
-    padding: 60px;
+.input-section, .result-section, .memory-game-section, .trivia-game-section {
+    margin: 20px 0;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* h1 {
-    color: #00796b;
-} */
-
-#scenario-container {
-    margin-bottom: 20px;
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin: 10px 0;
 }
 
 button {
-    background-color: #007bb5;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #0074D9;
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+}
+
+.result-section, .memory-game-section, .trivia-game-section {
+    font-size: 18px;
+}
+
+.memory-game {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.memory-card {
+    width: 100px;
+    height: 100px;
+    background-color: #0074D9;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
-    margin: 10px;
 }
 
-button:hover {
-    background-color: #1fb3e5;
-    transition: 250ms;
-    color: black;
+.memory-card.flipped {
+    background-color: #FF4136;
 }
 
-#score {
-    margin-top: 20px;
-    font-weight: bold;
+.trivia-options {
+    margin: 10px 0;
 }
+
+.trivia-option {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #0074D9;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
 
 .objectdetector{
     margin: 42px 0;
