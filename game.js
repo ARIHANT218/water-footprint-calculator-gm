@@ -8,6 +8,16 @@ const scenarios = [
             { text: "Skip the shower", footprint: 0 },
         ]
     },
+    
+    {
+            text: "Do you take baths? If so, how often?  (Answer for your entire household.)",
+            //    (Answer for your entire household.)",
+        choices: [
+            { text: "1 person", footprint: 2},
+            { text: " 2 person", footprint: 4 },
+            { text: "3 person", footprint: 6},
+        ]
+        },
     {
         text: "It's time for breakfast. What do you eat?",
         choices: [
@@ -22,6 +32,14 @@ const scenarios = [
             { text: "Drive your car", footprint: 15 },
             { text: "Carpool", footprint: 8 },
             { text: "Bike or walk", footprint: 0 },
+        ]
+    },
+     {
+        text: "Do you have a greywater system installed in your home?",
+        choices: [
+            { text: "yes", footprint: 13 },
+            { text: "No", footprint: 8 },
+            
         ]
     }
 ];
