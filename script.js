@@ -6,6 +6,9 @@ function calculateFootprint() {
         beef: 15415,
         chocolate: 17196,
         book:440,
+        Milk: 1000,
+        Rice: 2500,
+        Bread: 1600,
         jeans: 7600,
         tShirt: 2500
     };
